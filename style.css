@@ -10,6 +10,7 @@ body {
     -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
+  margin-bottom: 400px;
 }
 .hero-section {
   background-color: #e9eaee;
@@ -84,7 +85,7 @@ body {
 
 /* Card Section  */
 #flex-card-section{
-    padding: 4rem 10rem;
+    padding: 1rem 10rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -153,12 +154,15 @@ body {
         margin-bottom: 100px;
       }
     #flex-card-section{
-        padding: 4rem 2rem;
+        padding: 1rem 2rem;
         flex-direction: column;
         justify-content: center;
     }
     .flex-card{
         width: 100%;
         margin-bottom: 30px;
+    }
+    .right-hero{
+      padding-bottom: 100px;
     }
 }
