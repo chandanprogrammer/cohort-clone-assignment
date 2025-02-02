@@ -181,6 +181,7 @@ body {
 /* Grid section  */
 .banto-grid {
   display: grid;
+
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
   border: 1px solid #d7d7d7;
@@ -229,6 +230,21 @@ body {
 }
 .card-text i {
   font-size: 1em;
+}
+
+
+/* Move circle  */
+.move-circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.circle-box{
+  width: 400px;
+  height: 400px ;
+  border: 4px dotted black;
+  border-radius: 50%;
 }
 
 /* Mobile Responsive  */
